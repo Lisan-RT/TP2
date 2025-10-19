@@ -13,5 +13,9 @@ class TestFizzBuzz(unittest.TestCase):
         resultat = affiche(15)
         self.assertIn("FrisBee", resultat)
 
+    def test_affiche_n(self): 
+        resultat = affiche(5, 10)
+        self.assertIn("BuzzFizz78FizzBuzz", resultat)
+
 if __name__ == "__main__":
     unittest.main()
