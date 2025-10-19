@@ -1,6 +1,6 @@
 def affiche():
     resultat = ""
-    for i in range(1, 16):  # 1 à 15 inclus
+    for i in range(1, 16): 
         if i % 15 == 0:
             resultat += "FrisBee"
         elif i % 3 == 0:
